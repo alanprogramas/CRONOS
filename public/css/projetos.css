@@ -33,32 +33,7 @@ body {
 .navbar-nav li a {
     color: #007bff;
 }
-.search-box {
-    margin-top: 20px;
-    display: flex;
-    align-items: center;
-}
-.search-txt {
-    width: 300px;
-    padding: 10px;
-    border-radius: 20px;
-    border: 1px solid #ccc;
-    outline: none;
-    margin-right: 10px; /* Espaço entre o input e o botão */
-}
-.search-btn {
-    width: 60px;
-    height: 36px;
-    background-color: rgb(49, 49, 89);
-    border: none;
-    border-radius: 20px;
-}
-.search-btn:before {
-    content: '\1F50D';
-    color: white;
-    font-size: 20px;
-    padding: 6px;
-}
+
 .card-container {
     display: flex;
     flex-wrap: wrap; /* Permite que os cards quebrem para nova linha */
@@ -68,19 +43,13 @@ body {
 .card {
     width: 18rem;
 }
-/* Novo botão */
-.show-all-btn {
-    background-color: rgb(49, 49, 89);
-    color: white;
-    font-size: 16px;
-    padding: 5px 20px;
-    border: none;
-    border-radius: 20px;
-    cursor: pointer;
-    transition: background-color 0.3s;
+.text span{
+    color: #007bff;
 }
-
 .show-all-btn:hover {
     background-color: #333366;
     /* Um tom mais escuro ao passar o mouse */
+}
+@media screen and (max-width: 682px){
+ 
 }
